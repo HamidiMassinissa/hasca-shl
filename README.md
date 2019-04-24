@@ -35,11 +35,11 @@ If you are using `pip` package manager, you can simply install all requirements 
 ### Bayesian optimization
 In order to run Bayesian optimization, you can issue the following command:
 
-    python3 hasca-shl.py --bayesopt
+    python3 hasca-shl.py --run bayesopt
     
 Additionally, you can specify a given type of model or convolutional mode you want to apply Bayesian optimization on as follows:
 
-    python3 hasca-shl.py --bayesopt --model {cnn|lstm|hybrid}
+    python3 hasca-shl.py --run bayesopt --model {cnn|lstm|hybrid}
 
 ### Functional analysis of variance
 You can find a complete notebook showing the functional analysis of variance inside `notebooks/` folder.
